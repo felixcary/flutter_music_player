@@ -1,0 +1,1 @@
+export 'SearchResultModel.dart';
