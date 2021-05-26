@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 import 'package:music_player/Adapters/ApiServices/MusicPlayerApiService.dart';
 import 'package:music_player/Models/Models.dart';
 import 'package:music_player/ViewModels/ViewModels.dart';
-import 'package:assets_audio_player/assets_audio_player.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
