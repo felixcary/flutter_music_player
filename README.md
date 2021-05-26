@@ -1,16 +1,33 @@
 # music_player
 
-A new Flutter project.
+A new Flutter project to play music using iTunes API.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This application has been tested on Android Redmi 9 (Android 10, MIUI 11) and iPhone XR (iOS 14.5).
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Minimum Requirement:
+- Android SDK 16 (Android 4.1)
+- iOS 9.0 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Recommended Requirement:
+- Android SDK 27 (Android 8.1)
+- iOS 13
+
+Supported Feature:
+- Search Artist, Song, or Album and show the result list
+- Play music when select the song
+- Play, pause, move to previous song, move to next song, drag (seek) song duration from music control
+- Unit Test including API Service test and view model test
+
+Architecture using MVVM with route
+
+Library used:
+- GetX for reactive state management, dependency injection and network request https://pub.dev/packages/get
+- Assets audio player for audio player https://pub.dev/packages/assets_audio_player
+
+Instruction to build and run app:
+- download the project and open using visual studio code
+- go to pubspec.yaml and run "flutter pub get" to download required library
+- run it on simulator or real device
